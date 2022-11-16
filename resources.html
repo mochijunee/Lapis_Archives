@@ -1,0 +1,102 @@
+<!-- resources to take action, research -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lapis Archives: Resources</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="resources.html">Resources</a>
+      </li>
+      <li>
+        <a href="otherside.html">The Other Side</a>
+      </li>
+    </ul>
+  </nav>
+  <header>
+    <h1 class="welcome">Resources</h1>
+    <br>
+    <p class="description">Technology doesn't have to harm artists.</p>
+    <p class="description">Join us in creating a safer space for art in the tech world!</p>
+    <br>
+    <img id="cubePic" src="images/cube.jpg" alt="cube">
+  </header>
+  <br>
+  <br>
+  <section>
+    <h2>Research</h2>
+    <br>
+    <p>For information on how to promote art on social media click the image below.
+      <br>
+      <br>
+      <button class="img-btn"><a href="https://www.nevuefineartmarketing.com/how-to-promote-art-on-social-media/" target="_blank"><img src="images/bubble.jpg" alt="soap bubble"></a></button>
+      <br>
+      <br>
+    <p>For more information regarding art theft and how to prevent it click on the image below.
+      <br>
+      <br>
+      <button class="img-btn"><a
+          href="https://www.artsprofessional.co.uk/magazine/article/how-prevent-art-theft-and-forgery"
+          target="_blank"><img src="https://media.istockphoto.com/photos/closeup-of-a-soap-bubble-picture-id186094661?k=20&m=186094661&s=612x612&w=0&h=2tOMmkSsrXDe9-oy_T2AbNyLZmUgMZlqhK_p3In3AVM="></a></button>
+      <br>
+      <br>
+    <p>For information on how AI can help your creative process click on the image below. 
+      <br>
+      <br>
+      <button class="img-btn"><a
+          href="https://towardsdatascience.com/the-role-of-ai-in-art-creation-a53dbd562cdb" target="_blank"><img
+            src="https://cdn.pixabay.com/photo/2018/10/29/20/25/glass-prism-3781924_960_720.jpg"></a></button></p>
+    <br>
+    <br>
+    <h2>Get Involved</h2>
+    <br>
+    <p>Click the image below to support an artist.</p>
+    <br>     
+<button class="img-btn"><a href="get-involved.html"><img src="https://cdn.pixabay.com/photo/2019/01/19/21/09/crystal-ball-photography-3942594_960_720.jpg" alt="Blue and white Earth"></a></button>
+    <br>
+    <br>
+    <br>
+    <h2>Contact Us</h2>
+    <br>
+    <!-- Form -->
+    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+      <div class="row">
+        <label class="required" for="name">Your name:</label><br/>
+        <input id="name" class="input" name="name" type="text" value="" size="30" /><br/>
+        <span id="name_validation" class="error_message"></span>
+      </div>
+      <div class="row">
+        <label class="required" for="email">Your email:</label><br />
+        <input id="email" class="input" name="email" type="text" value="" size="30" /><br/>
+        <span id="email_validation" class="error_message"></span>
+      </div>
+      <div class="row">
+        <label class="required" for="message">Your message:</label><br />
+        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br/>
+        <span id="message_validation" class="error_message"></span>
+      </div>
+      <input id="submit_button" type="submit" value="SEND EMAIL"/>
+    </form>
+    <br>
+    <br>
+    <h2 class="form-output"></h2>
+  </section>
+  <br>
+  <br>
+  <br>
+  <footer>
+    <p class="copyright">&copy Audrey Yoo</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
